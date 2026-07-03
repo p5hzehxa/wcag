@@ -537,6 +537,6 @@ pre {
 dfn:focus {
     outline-offset: 0.25em;
 }
-main:focus, aside:focus, section:focus, div:focus {
+:is(main,aside,section,div):focus {
     outline-offset: 0.75em;
 }
